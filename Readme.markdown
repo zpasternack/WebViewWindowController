@@ -5,8 +5,8 @@ into a window, say, for an About Box. It does a couple neat tricks, as well:
 * It catches clicks on hyperlinks and opens them in the default browser (because showing them there in your about box is almost certainly not what you want).
 * At adapts for Mojave Dark Mode.
 
-![Screenshot: Light Mode](./../screenshot-light.png)
-![Screenshot: Dark Mode](./../screenshot-dark.png)
+![Screenshot: Light Mode](screenshot-light.png)
+![Screenshot: Dark Mode](screenshot-dark.png)
 
 
 ### Usage ###
