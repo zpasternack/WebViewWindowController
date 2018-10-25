@@ -168,6 +168,6 @@ extension WebViewWindowController: WKNavigationDelegate {
 	open func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
 		guard window != nil else { return }
 		modify(forAppearance: window!.effectiveAppearance)
-		}
+	}
 }
 #endif
