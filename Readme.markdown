@@ -3,7 +3,7 @@
 An `NSWindowController` subclass which includes a `WebView`. This makes it very easy to put styled content
 into a window, say, for an About Box. It does a couple neat tricks, as well:
 * It catches clicks on hyperlinks and opens them in the default browser (because showing them there in your about box is almost certainly not what you want).
-* At adapts for Mojave Dark Mode.
+* It adapts for Mojave Dark Mode.
 
 ![Screenshot: Light Mode](screenshot-light.png)
 ![Screenshot: Dark Mode](screenshot-dark.png)
