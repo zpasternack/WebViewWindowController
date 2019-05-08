@@ -22,7 +22,7 @@ If you setup your interface in Interface Builder (which I recommend), you'll nee
 
 ### Other Info ###
 
-`WebViewWindowController` is written in Swift 4.2.
+`WebViewWindowController` is written in Swift 5.
 
 By default, it uses the (now deprecated) `WebView` class. If you the compile flag `OPT_USE_WKWEBVIEW`, it will 
 instead use the new `WKWebView`. I have not tested this option much, and none of my shipping apps use it yet.
