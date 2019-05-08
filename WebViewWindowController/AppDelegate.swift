@@ -3,7 +3,7 @@
 //  WebViewWindowController
 //
 //  Created by Zacharias Pasternack on 9/2/18.
-//  Copyright © 2018 Fat Apps, LLC. All rights reserved.
+//  Copyright © 2019 Fat Apps, LLC. All rights reserved.
 //
 
 import Cocoa

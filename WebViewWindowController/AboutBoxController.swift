@@ -3,7 +3,7 @@
 //  WebViewWindowController
 //
 //  Created by Zacharias Pasternack on 9/02/18.
-//  Copyright © 2018 Fat Apps, LLC. All rights reserved.
+//  Copyright © 2019 Fat Apps, LLC. All rights reserved.
 //
 
 import Carbon
@@ -16,7 +16,7 @@ class AboutBoxController: WebViewWindowController {
 	@IBOutlet weak var versionField: NSTextField!
 	
 	convenience init() {
-		self.init(windowNibName: NSNib.Name(rawValue: "AboutBox"))
+		self.init(windowNibName: "AboutBox")
 	}
 	
     override func windowDidLoad() {

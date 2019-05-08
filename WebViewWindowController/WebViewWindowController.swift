@@ -3,7 +3,7 @@
 //  WebViewWindowController
 //
 //  Created by Zacharias Pasternack on 1/23/17.
-//  Copyright © 2017-2018 FatApps, LLC. All rights reserved.
+//  Copyright © 2017-2019 FatApps, LLC. All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are met:
@@ -31,7 +31,7 @@ import Cocoa
 import WebKit
 
 open class WebViewWindowController: NSWindowController {
-
+	
 	#if OPT_USE_WKWEBVIEW
 	@IBOutlet weak var webView: WKWebView!
 	#else
@@ -43,8 +43,8 @@ open class WebViewWindowController: NSWindowController {
 	
 	private var appearanceObserver: NSKeyValueObservation? = nil
 	
-    open override func windowDidLoad() {
-        super.windowDidLoad()
+	open override func windowDidLoad() {
+		super.windowDidLoad()
 		
 		assert(webView != nil, "Forgot to set webView IBOutlet!")
 		assert(htmlFile != nil, "Forgot to specify HTML file for web view!")
@@ -58,7 +58,7 @@ open class WebViewWindowController: NSWindowController {
 				self?.updateAppearance()
 			}
 		}
-
+		
 		// Set delegate for WebView (so we can catch links and do stuff).
 		#if OPT_USE_WKWEBVIEW
 		webView.navigationDelegate = self
@@ -69,7 +69,7 @@ open class WebViewWindowController: NSWindowController {
 		
 		// Load our HTML page.
 		loadHtml()
-    }
+	}
 	
 	open func modify(forAppearance appearance: NSAppearance) {
 		// Only do anything for dark theme.
@@ -120,7 +120,7 @@ open class WebViewWindowController: NSWindowController {
 
 #if !OPT_USE_WKWEBVIEW
 extension WebViewWindowController: WebPolicyDelegate {
-
+	
 	public func webView(_ webView: WebView!,
 						decidePolicyForNavigationAction actionInformation: [AnyHashable : Any]!,
 						request: URLRequest!,
