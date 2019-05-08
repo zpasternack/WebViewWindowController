@@ -38,4 +38,4 @@ out [my blog](http://zpasternack.org), or follow me on [Twitter](https://twitter
 
 ### License ###
 
-The code is provided under a Modified BSD License. See the LICENSE file for more info.
+The code is provided under a Modified BSD License. See the [LICENSE file](LICENSE) for more info.
